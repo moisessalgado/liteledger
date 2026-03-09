@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "LiteLedger",
+    "slug": "liteledger",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a4300797-fa2d-4f93-8ff7-e1916219e534"
+      }
+    },
+    "owner": "moises.salgado"
+  }
+}
