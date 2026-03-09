@@ -1,0 +1,25 @@
+# Nubank exports (dados sensíveis)
+nubank_exports/
+
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+.expo/
+.expo-shared/
+
+# Expo/React Native cache
+*.log
+*.tmp
+*.lock
+*.DS_Store
+
+# IDE/config
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+Thumbs.db
