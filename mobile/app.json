@@ -7,7 +7,8 @@
     "userInterfaceStyle": "light",
     "plugins": [
       "expo-router",
-      "expo-sqlite"
+      "expo-sqlite",
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
@@ -20,6 +21,15 @@
         "projectId": "a4300797-fa2d-4f93-8ff7-e1916219e534"
       }
     },
-    "owner": "moises.salgado"
+    "owner": "moises.salgado",
+    "android": {
+      "package": "com.moises.salgado.liteledger"
+    },
+    "ios": {
+      "bundleIdentifier": "com.moises.salgado.liteledger",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
   }
 }
